@@ -11,6 +11,7 @@ import java.util.Random;
 public class main {
     public static void main(String[] args) {
         LinkedList<Integer> list = getList(50);
+        ArrayList<Integer> list1 = new ArrayList<>();
 
       printListOneRow(list);
 
@@ -34,4 +35,5 @@ public class main {
 
 
     }
+
 }
